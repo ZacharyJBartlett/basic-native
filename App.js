@@ -1,7 +1,7 @@
 import React from 'react';
 import { AppRegistry, StyleSheet, Text, View, Button } from 'react-native';
 import { StackNavigator, navigate, navigation } from 'react-navigation';
-import Secondary from '/screens/Secondscreen.js'
+import Secondary from '../basic-native/screens/Secondscreen';
 
 export default class HomeScreen extends React.Component {
   static navigationOptions = {
